@@ -1,0 +1,516 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: test - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP210.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/test.pdb" /debug /machine:I386 /out:"Debug/test.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\test.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP210.tmp"
+<h3>Output Window</h3>
+Linking...
+cryptlib.lib(cryptlib.obj) : warning LNK4078: multiple ".CRT" sections found with different attributes (40300040)
+cryptlib.lib(dll.obj) : error LNK2005: "public: static unsigned int const std::ctype<char>::table_size" (?table_size@?$ctype@D@std@@2IB) already defined in libcpd.lib(locale0.obj)
+cryptlib.lib(gf2n.obj) : error LNK2005: "public: void __thiscall std::ios_base::clear(int,bool)" (?clear@ios_base@std@@QAEXH_N@Z) already defined in libcpd.lib(ios.obj)
+cryptlib.lib(integer.obj) : error LNK2005: "public: void __thiscall std::ios_base::clear(int,bool)" (?clear@ios_base@std@@QAEXH_N@Z) already defined in libcpd.lib(ios.obj)
+cryptlib.lib(iterhash.obj) : error LNK2005: "public: static unsigned int const std::ctype<char>::table_size" (?table_size@?$ctype@D@std@@2IB) already defined in libcpd.lib(locale0.obj)
+libcmtd.lib(_file.obj) : error LNK2005: ___initstdio already defined in LIBCD.lib(_file.obj)
+libcmtd.lib(_file.obj) : error LNK2005: ___endstdio already defined in LIBCD.lib(_file.obj)
+libcmtd.lib(_file.obj) : error LNK2005: __cflush already defined in LIBCD.lib(_file.obj)
+libcmtd.lib(_file.obj) : error LNK2005: __iob already defined in LIBCD.lib(_file.obj)
+libcmtd.lib(dosmap.obj) : error LNK2005: __dosmaperr already defined in LIBCD.lib(dosmap.obj)
+libcmtd.lib(osfinfo.obj) : error LNK2005: __alloc_osfhnd already defined in LIBCD.lib(osfinfo.obj)
+libcmtd.lib(osfinfo.obj) : error LNK2005: __set_osfhnd already defined in LIBCD.lib(osfinfo.obj)
+libcmtd.lib(osfinfo.obj) : error LNK2005: __free_osfhnd already defined in LIBCD.lib(osfinfo.obj)
+libcmtd.lib(osfinfo.obj) : error LNK2005: __get_osfhandle already defined in LIBCD.lib(osfinfo.obj)
+libcmtd.lib(osfinfo.obj) : error LNK2005: __open_osfhandle already defined in LIBCD.lib(osfinfo.obj)
+libcmtd.lib(lseek.obj) : error LNK2005: __lseek already defined in LIBCD.lib(lseek.obj)
+libcmtd.lib(winsig.obj) : error LNK2005: _signal already defined in LIBCD.lib(winsig.obj)
+libcmtd.lib(winsig.obj) : error LNK2005: _raise already defined in LIBCD.lib(winsig.obj)
+libcmtd.lib(winxfltr.obj) : error LNK2005: __XcptFilter already defined in LIBCD.lib(winxfltr.obj)
+libcmtd.lib(winxfltr.obj) : error LNK2005: __XcptActTabCount already defined in LIBCD.lib(winxfltr.obj)
+libcmtd.lib(winxfltr.obj) : error LNK2005: __Num_FPE already defined in LIBCD.lib(winxfltr.obj)
+libcmtd.lib(winxfltr.obj) : error LNK2005: __First_FPE_Indx already defined in LIBCD.lib(winxfltr.obj)
+libcmtd.lib(winxfltr.obj) : error LNK2005: __XcptActTab already defined in LIBCD.lib(winxfltr.obj)
+libcpmtd.lib(locale.obj) : error LNK2005: "public: __thiscall std::_Locinfo::_Locinfo(char const *)" (??0_Locinfo@std@@QAE@PBD@Z) already defined in cryptlib.lib(integer.obj)
+libcpmtd.lib(locale.obj) : error LNK2005: "public: __thiscall std::_Locinfo::~_Locinfo(void)" (??1_Locinfo@std@@QAE@XZ) already defined in cryptlib.lib(integer.obj)
+libcpmtd.lib(locale.obj) : error LNK2005: "public: static class std::locale::id std::codecvt<char,char,int>::id" (?id@?$codecvt@DDH@std@@2V0locale@2@A) already defined in cryptlib.lib(dll.obj)
+LIBCD.lib(crt0init.obj) : warning LNK4098: defaultlib "libcmtd.lib" conflicts with use of other libs; use /NODEFAULTLIB:library
+cryptlib.lib(hmac.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(hrtimer.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(rng.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(osrng.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(cpu.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(randpool.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(asn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(hex.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(basecode.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(iterhash.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(pubkey.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(des.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(rijndael.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(algparam.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(mqueue.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(queue.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(modes.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol ___security_cookie
+cryptlib.lib(hrtimer.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(rng.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(osrng.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(randpool.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(hmac.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(asn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(hex.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(basecode.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(iterhash.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(pubkey.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(des.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(rijndael.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(algparam.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(mqueue.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(queue.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(modes.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+cryptlib.lib(hrtimer.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(rng.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(osrng.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(randpool.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(hmac.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(asn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(hex.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(basecode.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(iterhash.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(pubkey.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(des.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(rijndael.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(algparam.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(mqueue.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(queue.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(modes.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+cryptlib.lib(hrtimer.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(rng.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(osrng.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(randpool.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(hmac.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(asn.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(hex.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(basecode.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(iterhash.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(pubkey.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(des.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(rijndael.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(algparam.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(mqueue.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(queue.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(modes.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+cryptlib.lib(hrtimer.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(rng.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(osrng.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(randpool.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(hmac.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(asn.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(hex.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(basecode.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(iterhash.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(pubkey.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(des.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(rijndael.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(algparam.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(mqueue.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(queue.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(modes.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+cryptlib.lib(hmac.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(hrtimer.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(basecode.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(rng.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(randpool.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(iterhash.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(sha.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(pubkey.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(asn.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(fips140.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(queue.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(des.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(misc.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(rijndael.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(algparam.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(mqueue.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(modes.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol __wassert
+cryptlib.lib(hmac.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(hrtimer.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(rng.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(osrng.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(randpool.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(pubkey.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(asn.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(hex.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(basecode.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(iterhash.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(queue.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(des.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(misc.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(rijndael.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(algparam.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(mqueue.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(modes.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+cryptlib.lib(hmac.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(hrtimer.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(rng.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(osrng.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(randpool.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(pubkey.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(asn.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(hex.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(basecode.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(iterhash.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(queue.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(des.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(misc.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(rijndael.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(algparam.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(mqueue.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(modes.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+cryptlib.lib(hrtimer.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(rng.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(osrng.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(randpool.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(hmac.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(asn.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(hex.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(basecode.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(iterhash.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(pubkey.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(des.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(rijndael.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(algparam.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(mqueue.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(queue.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(modes.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(void)" (??0exception@std@@QAE@XZ)
+cryptlib.lib(hrtimer.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(rng.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(osrng.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(randpool.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(hmac.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(asn.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(hex.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(basecode.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(iterhash.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(pubkey.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(des.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(rijndael.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(algparam.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(mqueue.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(queue.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(modes.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol _memcpy_s
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol __invalid_parameter
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol __invalid_parameter
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol __invalid_parameter
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol __invalid_parameter
+cryptlib.lib(asn.obj) : error LNK2001: unresolved external symbol __invalid_parameter
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol __invalid_parameter
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol __invalid_parameter
+cryptlib.lib(mqueue.obj) : error LNK2001: unresolved external symbol __invalid_parameter
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol __invalid_parameter
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+cryptlib.lib(asn.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+cryptlib.lib(mqueue.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+cryptlib.lib(hrtimer.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(rng.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(osrng.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(randpool.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(hmac.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(asn.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(hex.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(basecode.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(iterhash.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(pubkey.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(des.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(rijndael.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(algparam.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(mqueue.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(queue.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(modes.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+cryptlib.lib(hmac.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(hrtimer.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(rng.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(osrng.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(randpool.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(pubkey.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(asn.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(hex.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(basecode.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(iterhash.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(queue.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(des.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(misc.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(rijndael.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(algparam.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(mqueue.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(modes.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+cryptlib.lib(hrtimer.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(rng.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(osrng.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(randpool.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(hmac.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(asn.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(hex.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(basecode.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(iterhash.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(pubkey.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(des.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(rijndael.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(algparam.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(mqueue.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(queue.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(modes.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol _memmove_s
+cryptlib.lib(hex.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBE_NABV0@@Z)
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+cryptlib.lib(hex.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+cryptlib.lib(algparam.obj) : error LNK2001: unresolved external symbol "public: bool __thiscall type_info::operator!=(class type_info const &)const " (??9type_info@@QBE_NABV0@@Z)
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+cryptlib.lib(hex.obj) : error LNK2001: unresolved external symbol "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+cryptlib.lib(algparam.obj) : error LNK2001: unresolved external symbol "public: char const * __thiscall type_info::name(struct __type_info_node *)const " (?name@type_info@@QBEPBDPAU__type_info_node@@@Z)
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+cryptlib.lib(hex.obj) : error LNK2001: unresolved external symbol "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+cryptlib.lib(algparam.obj) : error LNK2001: unresolved external symbol "struct __type_info_node __type_info_root_node" (?__type_info_root_node@@3U__type_info_node@@A)
+cryptlib.lib(hrtimer.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(rng.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(osrng.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(randpool.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(hmac.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(asn.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(hex.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(basecode.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(iterhash.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(pubkey.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(des.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(rijndael.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(algparam.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(mqueue.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(queue.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(modes.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xran(void)" (?_Xran@_String_base@std@@SAXXZ)
+cryptlib.lib(hrtimer.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(rng.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(osrng.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(randpool.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(hmac.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(asn.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(hex.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(basecode.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(nbtheory.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(ec2n.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(gfpcrypt.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(iterhash.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(pubkey.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(des.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(ecp.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(rijndael.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(algparam.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(mqueue.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(queue.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(filters.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(cryptlib.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(modes.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_String_base::_Xlen(void)" (?_Xlen@_String_base@std@@SAXXZ)
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??_U@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+cryptlib.lib(iterhash.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??_U@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+cryptlib.lib(dll.obj) : error LNK2001: unresolved external symbol "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)
+cryptlib.lib(iterhash.obj) : error LNK2001: unresolved external symbol "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)
+cryptlib.lib(misc.obj) : error LNK2001: unresolved external symbol "void (__cdecl*__cdecl std::set_new_handler(void (__cdecl*)(void)))(void)" (?set_new_handler@std@@YAP6AXXZP6AXXZ@Z)
+cryptlib.lib(misc.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &,int)" (??0exception@std@@QAE@ABQBDH@Z)
+cryptlib.lib(rijndael.obj) : error LNK2001: unresolved external symbol __alloca_probe_16
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol "public: void __thiscall std::_Mutex::_Lock(void)" (?_Lock@_Mutex@std@@QAEXXZ)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "public: void __thiscall std::_Mutex::_Lock(void)" (?_Lock@_Mutex@std@@QAEXXZ)
+cryptlib.lib(gf2n.obj) : error LNK2001: unresolved external symbol "public: void __thiscall std::_Mutex::_Unlock(void)" (?_Unlock@_Mutex@std@@QAEXXZ)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "public: void __thiscall std::_Mutex::_Unlock(void)" (?_Unlock@_Mutex@std@@QAEXXZ)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "private: static void __cdecl std::locale::facet::facet_Register(class std::locale::facet *)" (?facet_Register@facet@locale@std@@CAXPAV123@@Z)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "private: static class std::locale::_Locimp * __cdecl std::locale::_Getgloballocale(void)" (?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_Locinfo::_Locinfo_ctor(class std::_Locinfo *,char const *)" (?_Locinfo_ctor@_Locinfo@std@@SAXPAV12@PBD@Z)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "public: static void __cdecl std::_Locinfo::_Locinfo_dtor(class std::_Locinfo *)" (?_Locinfo_dtor@_Locinfo@std@@SAXPAV12@@Z)
+cryptlib.lib(integer.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+cryptlib.lib(rng.obj) : error LNK2001: unresolved external symbol __time64
+cryptlib.lib(randpool.obj) : error LNK2001: unresolved external symbol __time64
+cryptlib.lib(cpu.obj) : error LNK2001: unresolved external symbol __except_handler4
+Debug/test.exe : fatal error LNK1120: 36 unresolved externals
+Ö´ÐÐ link.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+test.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
